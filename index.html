@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="clickbait.css">
+    <title>Clickbait</title>
+</head> 
+  <div class="campo">
+    <h1 id="titulo">Cadastro pessoal</h1>
+    <p id="subtitulo">Complete suas informações</p>
+    <br>    
+  </div>  
+  <form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>NOME</strong> </label>
+            <input type="text" nome="nome" id="nome" required>
+        </div>
+        <div class="campo">
+            <label for="sobrenome"><strong>SOBRENOME</strong> </label>
+            <input type="text" nome="sobrenome" id="sobrenome">
+        </div>
+    </fieldset>
+    <div class="campo">
+        <label for="email"><strong>EMAIL</strong> </label>
+        <input type="email" nome="email" id="email" required>
+    </div>
+    <div class="campo">
+        <label for="GÊNERO"></label>
+        <label>
+            <input type="radio" nome="devweb" value="M" checked> MASCULINO
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="F"> FEMININO
+        </label>
+    </div>
+    <div class="campo">
+        <label for="CPF"><strong>CPF</strong> </label>
+        <input type="number" nome="cpf" id="cpf" required>
+    </div>
+    <div class="campo">
+        <label><strong>FOTO DO RG</strong> </label>
+        <input type="file" name="file" required>
+    </div> 
+     
+    <button class="botao" type="s
+    "> CONCLUÍDO</button>
+    
+  </form>
+</body>
+</html>
